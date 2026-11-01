@@ -1,0 +1,398 @@
+ <!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina Bijoux – Bijuterii premium</title>
+  <link rel="stylesheet" href="style.css" />
+   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Meniu -->
+  <header>
+    <nav class="nav">
+      <div class="logo">
+        GEO Bijoux
+        <span>Bijuterii care păstrează momentele aproape.</span>
+      </div>
+      <div class="nav-links">
+        <a href="#colectie">Colecția</a>
+        <a href="#despre">Despre brand</a>
+        <a href="#beneficii">De ce noi</a>
+        <a href="#testimoniale">Testimoniale</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="btn btn-secondary nav-cta" onclick="scrollToSection('colectie')">
+        Descoperă colecția
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="hero-text fade-in">
+        <h1>
+          Bijuterii care
+          <span>îți îmbrățișează povestea</span>
+        </h1>
+        <p class="hero-subtitle">
+          Piese delicate, create în serii limitate, pentru femei care își poartă eleganța în fiecare gest.
+        </p>
+
+        <div class="hero-badges">
+          <div class="badge">Argint 925 & placare aur roz</div>
+          <div class="badge">Design minimalist, feminin</div>
+          <div class="badge">Ambalaj cadou inclus</div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" onclick="scrollToSection('colectie')">
+            Descoperă colecția
+          </button>
+          <button class="btn btn-secondary" onclick="scrollToSection('despre')">
+            Vezi detalii
+          </button>
+          <span class="hero-note">Livrare în 48h, retur ușor.</span>
+        </div>
+      </div>
+
+      <div class="hero-media fade-in">
+        <div class="hero-card">
+          <div class="hero-main-img">
+            <!-- Poți înlocui cu o imagine reală -->
+            <img src="https://images.pexels.com/photos/1158438/pexels-photo-1158438.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Bijuterii Lumina Bijoux" />
+          </div>
+          <div class="hero-label">
+            <span>Noua colecție „Lumini de seară”</span>
+            <span>Serii limitate · 2026</span>
+          </div>
+          <div class="hero-mini-grid">
+            <div class="hero-mini-card">
+              <strong>Detalii fine</strong>
+              <span>Lucrate manual, cu atenție la fiecare prindere.</span>
+            </div>
+            <div class="hero-mini-card">
+              <strong>Cadou perfect</strong>
+              <span>Cutie pastel, mesaj personalizat inclus.</span>
+            </div>
+            <div class="hero-mini-card">
+              <strong>Siguranță</strong>
+              <span>Materiale testate, prietenoase cu pielea sensibilă.</span>
+            </div>
+          </div>
+          <div class="hero-tag">Colecție limitată</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Colecția -->
+    <section id="colectie" class="fade-in">
+      <div class="section-header">
+        <h2 class="section-title">Colecția Lumina Bijoux</h2>
+        <p class="section-subtitle">
+          Piese atent alese, pentru momente care merită să fie purtate, nu doar povestite.
+        </p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Produs 1 -->
+        <article class="product-card">
+          <div class="product-img">
+            <img src="https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Colier „Respirație de lumină”" />
+          </div>
+          <div class="product-info">
+            <h3>Colier „Respirație de lumină”</h3>
+            <p>Lanț fin din argint 925, cu pandant delicat în formă de picătură.</p>
+          </div>
+          <div class="product-meta">
+            <span class="price">249 lei</span>
+            <span>Livrare în 2 zile</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary">Comandă acum</button>
+            <button class="btn btn-secondary">Vezi detalii</button>
+          </div>
+          <span class="product-tag">Best seller</span>
+        </article>
+
+        <!-- Produs 2 -->
+        <article class="product-card">
+          <div class="product-img">
+            <img src="https://images.pexels.com/photos/1158433/pexels-photo-1158433.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Brățară „Dimineață calmă”" />
+          </div>
+          <div class="product-info">
+            <h3>Brățară „Dimineață calmă”</h3>
+            <p>Lanț subțire cu charmuri minimaliste, perfectă pentru layering.</p>
+          </div>
+          <div class="product-meta">
+            <span class="price">189 lei</span>
+            <span>Stoc limitat</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary">Comandă acum</button>
+            <button class="btn btn-secondary">Vezi detalii</button>
+          </div>
+          <span class="product-tag">Nou</span>
+        </article>
+
+        <!-- Produs 3 -->
+        <article class="product-card">
+          <div class="product-img">
+            <img src="https://images.pexels.com/photos/1158436/pexels-photo-1158436.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cercei „Seri pastelate”" />
+          </div>
+          <div class="product-info">
+            <h3>Cercei „Seri pastelate”</h3>
+            <p>Cercei mici, rotunzi, cu finisaj lucios, pentru fiecare zi.</p>
+          </div>
+          <div class="product-meta">
+            <span class="price">159 lei</span>
+            <span>Set cadou</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary">Comandă acum</button>
+            <button class="btn btn-secondary">Vezi detalii</button>
+          </div>
+          <span class="product-tag">Favorit</span>
+        </article>
+
+        <!-- Produs 4 -->
+        <article class="product-card">
+          <div class="product-img">
+            <img src="https://images.pexels.com/photos/1158435/pexels-photo-1158435.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Inel „Promisiune blândă”" />
+          </div>
+          <div class="product-info">
+            <h3>Inel „Promisiune blândă”</h3>
+            <p>Inel subțire, ajustabil, cu detaliu discret în centru.</p>
+          </div>
+          <div class="product-meta">
+            <span class="price">139 lei</span>
+            <span>Mărimi ajustabile</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary">Comandă acum</button>
+            <button class="btn btn-secondary">Vezi detalii</button>
+          </div>
+          <span class="product-tag">Minimalist</span>
+        </article>
+
+        <!-- Produs 5 -->
+        <article class="product-card">
+          <div class="product-img">
+            <img src="https://images.pexels.com/photos/1158434/pexels-photo-1158434.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Set „Liniște de seară”" />
+          </div>
+          <div class="product-info">
+            <h3>Set „Liniște de seară”</h3>
+            <p>Colier + cercei coordonați, pentru ținute speciale.</p>
+          </div>
+          <div class="product-meta">
+            <span class="price">329 lei</span>
+            <span>Ambalaj premium</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary">Comandă acum</button>
+            <button class="btn btn-secondary">Vezi detalii</button>
+          </div>
+          <span class="product-tag">Cadou</span>
+        </article>
+
+        <!-- Produs 6 -->
+        <article class="product-card">
+          <div class="product-img">
+            <a href="product-detail.html">
+              <img src="https://images.pexels.com/photos/1158437/pexels-photo-1158437.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Lanț „Respirație de mare”" />
+            </a>
+          </div>
+          <div class="product-info">
+            <h3>Lanț „Respirație de mare”</h3>
+            <p>Lanț lung, delicat, ideal pentru ținute lejere de zi.</p>
+          </div>
+          <div class="product-meta">
+            <span class="price">199 lei</span>
+            <span>Inspirat de luminile marine</span>
+          </div>
+          <div class="product-actions">
+            <button class="btn btn-primary">Comandă acum</button>
+            <button class="btn btn-secondary">Vezi detalii</button>
+          </div>
+          <span class="product-tag">Colecție nouă</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Despre brand -->
+    <section id="despre" class="fade-in">
+      <div class="section-header">
+        <h2 class="section-title">Despre Lumina Bijoux</h2>
+        <p class="section-subtitle">
+          Un brand născut din dorința de a transforma momentele mici în amintiri purtate aproape de inimă.
+        </p>
+      </div>
+
+      <div class="about">
+        <div class="about-text">
+          <p>
+            Fiecare piesă Lumina Bijoux este desenată cu gândul la femeia care o va purta: delicată, prezentă,
+            atentă la detalii, dar mereu în mișcare. Ne inspirăm din luminile serii, din culori pastelate și din
+            liniștea momentelor în care îți iei timp pentru tine.
+          </p>
+          <p>
+            Lucrăm cu argint 925, placări aur roz și finisaje atent testate, pentru ca bijuteriile tale să fie
+            la fel de confortabile pe cât sunt de elegante.
+          </p>
+          <div class="about-highlights">
+            <span class="pill">Serii limitate, fără producție în masă</span>
+            <span class="pill">Ambalaj pastel, gata de oferit cadou</span>
+            <span class="pill">Colaborări cu designeri locali</span>
+            <span class="pill">Focus pe confort și piele sensibilă</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <strong>Manifestul nostru:</strong>
+          <p>
+            Credem în bijuterii care nu concurează cu tine, ci te completează. Piese care nu strigă, ci
+            șoptesc. Detalii care nu fură atenția, ci o așază acolo unde îți dorești: pe tine.
+          </p>
+          <p>
+            De aceea, fiecare colecție este gândită în jurul unei stări: liniște, lumină, respirație, seară.
+            Tu alegi ce vrei să porți mai aproape.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficii -->
+    <section id="beneficii" class="fade-in">
+      <div class="section-header">
+        <h2 class="section-title">De ce să alegi bijuteriile noastre</h2>
+        <p class="section-subtitle">
+          Pentru că eleganța ta merită piese care se simt la fel de bine pe cât arată.
+        </p>
+      </div>
+
+      <div class="benefits-grid">
+        <article class="benefit-card">
+          <h3>Materiale sigure</h3>
+          <p>
+            Argint 925 și placări atent testate, prietenoase cu pielea sensibilă, fără compromis la strălucire.
+          </p>
+        </article>
+        <article class="benefit-card">
+          <h3>Design feminin, minimalist</h3>
+          <p>
+            Linii curate, detalii discrete, piese care se potrivesc atât cu o ținută de birou, cât și cu una de seară.
+          </p>
+        </article>
+        <article class="benefit-card">
+          <h3>Ambalaj cadou inclus</h3>
+          <p>
+            Cutii pastel, panglică delicată și mesaj personalizabil, gata de oferit fără griji suplimentare.
+          </p>
+        </article>
+        <article class="benefit-card">
+          <h3>Livrare rapidă & retur ușor</h3>
+          <p>
+            Comenzi procesate în 24h, livrare în 48h și retur simplu, dacă nu e dragoste la prima vedere.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Testimoniale -->
+    <section id="testimoniale" class="fade-in">
+      <div class="section-header">
+        <h2 class="section-title">Ce spun femeile care poartă Lumina Bijoux</h2>
+        <p class="section-subtitle">
+          Ne bucurăm cel mai mult când bijuteriile noastre devin parte din ritualurile tale de zi cu zi.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="testimonial-name">Ana · 32 ani</div>
+          <div class="testimonial-role">Consultant marketing</div>
+          <p>
+            „Port brățara ‘Dimineață calmă’ aproape zilnic. E suficient de discretă pentru birou, dar are
+            exact acel detaliu care mă face să simt că am ales ceva pentru mine.”
+          </p>
+        </article>
+        <article class="testimonial-card">
+          <div class="testimonial-name">Ioana · 27 ani</div>
+          <div class="testimonial-role">Designer grafic</div>
+          <p>
+            „Îmi plac mult culorile pastel și faptul că ambalajul arată la fel de bine ca bijuteria. Am
+            comandat deja de două ori pentru cadouri și reacțiile au fost superbe.”
+          </p>
+        </article>
+        <article class="testimonial-card">
+          <div class="testimonial-name">Mara · 38 ani</div>
+          <div class="testimonial-role">Psihoterapeut</div>
+          <p>
+            „Simt că bijuteriile Lumina Bijoux nu mă ‘acoperă’, ci mă completează. Sunt ușoare, nu mă
+            deranjează și totuși primesc complimente de fiecare dată.”
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section id="contact" class="fade-in">
+      <div class="cta-final">
+        <h2>Pregătită să îți alegi bijuteria preferată?</h2>
+        <p>
+          Alege piesa care îți vorbește cel mai mult și lasă-ne să avem grijă de restul: ambalaj, livrare,
+          detalii. Tu doar deschizi cutia.
+        </p>
+        <button class="btn btn-primary" onclick="scrollToSection('colectie')">
+          Comandă acum
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    Lumina Bijoux · Bijuterii premium, feminine, pastel.
+    <span>© 2026 Lumina Bijoux. Toate drepturile rezervate.</span>
+  </footer>
+
+  <script>
+    // Scroll smooth + mic efect pe butoane
+    function scrollToSection(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Fade-in la scroll
+    const fadeEls = document.querySelectorAll('.fade-in');
+
+    function handleFadeIn() {
+      const triggerBottom = window.innerHeight * 0.9;
+      fadeEls.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < triggerBottom) {
+          el.classList.add('visible');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', handleFadeIn);
+    window.addEventListener('load', handleFadeIn);
+
+    // Mic efect pe butoane la click
+    const buttons = document.querySelectorAll('.btn');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.style.transform = 'scale(0.97)';
+        setTimeout(() => {
+          btn.style.transform = '';
+        }, 120);
+      });
+    });
+  </script>
+</body>
+</html>

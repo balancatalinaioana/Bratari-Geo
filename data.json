@@ -1,0 +1,38 @@
+{
+  "bracelets": [
+    {
+      "name": "Brățară cu jad",
+      "price": "45 lei",
+      "image": "/img/image_2.png"
+    },
+    {
+      "name": "Brățară cu ametist",
+      "price": "55 lei",
+      "image": "images/ametist.jpg"
+    }
+
+    {
+      "name": "Brățară cu ametist",
+      "price": "55 lei",
+      "image": "images/ametist.jpg"
+    }
+
+    {
+      "name": "Brățară cu ametist",
+      "price": "55 lei",
+      "image": "images/ametist.jpg"
+    }
+
+    {
+      "name": "Brățară cu ametist",
+      "price": "55 lei",
+      "image": "images/ametist.jpg"
+    }
+
+    {
+      "name": "Brățară cu ametist",
+      "price": "55 lei",
+      "image": "images/ametist.jpg"
+    }
+  ]
+}
